@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Vivek Rana">
-    <meta name="keywords" content="Vivek Rana, Web Designer, Graphic Designer, Portfolio, HTML CSS, SEO, Responsive Design">
-    <meta name="description" content="Discover the work of Vivek Rana – a dedicated web and graphic designer creating clean, responsive websites with strong visual impact and user-focused design.">
+    <meta name="keywords" content="Vivek Rana, Web Designer Mohali, HTML CSS Portfolio, Vivek Rana Portfolio">
+    <meta name="description" content="Hi, I'm Vivek Rana – a web  designer from Mohali. This is my portfolio site with HTML, CSS, JS projects and contact info.">
     <link rel="stylesheet" href="Custom.css">
     <link rel="stylesheet" href="responsive.css">
     <link rel="icon" type="image/png" href="images/favicon/android-chrome-192x192.png">
     <link rel="icon" href="images/favicon/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
-    <title>Vivek Rana | Frontend Developer & UI Designer</title>
+    <title>Vivek Rana | Creative  Web Designer Portfolio India</title>
     <link href="https://fonts.googleapis.com/css2?family=K2D:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -19,13 +19,13 @@
     <div class="scroll-progress" id="scrollProgress"></div>
     <div class="container">
       <nav>
-        <div class="logo">Vivek</div>
+        <div class="logo"><h1>Vivek</h1></div>
         <div class="menu-toggle" onclick="toggleMenu()">☰</div>
         <div class="menu" id="menu">
-          <a href="#" class="active">Home</a>
-          <a href="#">About</a>
-          <a href="#">Portfolio</a>
-          <a href="#">Contact</a>
+          <a href="index.html" class="active">Home</a>
+          <a href="about.html">About</a>
+          <a href="portfolio.html">Portfolio</a>
+          <a href="contact.html">Contact</a>
           <a href="images/vivek CV  _ !.pdf"><button class="cv-btn" >My Resume</button></a>
         </div>
       </nav>
@@ -38,8 +38,8 @@
       <div class="container">
         <div class="index-hero-main-column">
           <div class="index-hero-main-column-col-1">
-            <h3>Hii I'am</h3>
-            <h3 class="name">Vivek Rana</h3>
+            <h1>Hii I'am<br>
+             <span class="name">Vivek Rana </span></h1>
             <h2>Web designer</h2>
             
             <div class="social-media-accounts">
@@ -78,7 +78,7 @@
             
           </div>
           <div class="index-hero-main-column-col-2">
-            <img src="images/me.png" loading="lazy" alt="Vivek Rana Web Designer">
+            <img src="images/Vivek-Rana.png" loading="lazy" alt="Vivek Rana - Web Designer from Mohali">
           </div>
         </div>
       </div>
@@ -94,18 +94,18 @@
           <div class="about-wrapper">
             
             <div class="about-image">
-              <img src="images/about-me-image.png" alt="About Image">
+              <img src="images/about-me-image.png" alt="Vivek Rana">
             </div>
             <div class="about-content">
               <p>
                 <b>Web Designer | Visual Storyteller  | Focused on Responsive Design</b><br>
-                I'm Vivek Rana, a creative web designer passionate about building responsive, user-friendly websites.  
+                <strong>I'm Vivek Rana</strong>, a creative web designer passionate about building responsive, user-friendly websites.  
                 I specialize in clean UI/UX design, mobile-first layouts, and fast-loading, SEO-optimized web experiences.  
                 With strong front-end skills in HTML, CSS, and design tools, I focus on creating high-performance websites  
                 that work seamlessly across all devices.
               </p>
-              <a href="https://wa.me/918894006623?text=Hello%20Vivek%2C%20I%20just%20visited%20your%20portfolio%20and%20I'm%20interested%20in%20getting%20in%20touch%20with%20you." class="btn-1" target="_blank">
-                Get In Touch
+              <a href="about.html" class="btn-1" >
+                About Me
               </a>
               
             </div>
@@ -246,50 +246,80 @@
         <button class="vivek-project-btn active" data-filter="all">All</button>
         <button class="vivek-project-btn" data-filter="web">Website Development</button>
         <button class="vivek-project-btn" data-filter="mobile">Web Design</button>
-        <button class="vivek-project-btn" data-filter="branding">Branding</button>
+        
       </div>
   
       <!-- Projects Grid -->
       <div class="vivek-project-grid-wrapper">
         <div class="vivek-project-grid" id="vivekProjectContainer">
-          <div class="vivek-project-card branding">
-              <img class="vivek-project-image" src="images/project4.jpg" alt="Project 4" />
+  
+            <div class="vivek-project-card web">
+              <div class="vivek-project-image-wrapper">
+                <img class="vivek-project-image" src="images/qmanja-web.png" alt="Qmanja Solutions">
+              </div>
               <div class="vivek-project-content">
-                <div class="vivek-project-name">Brand Identity</div>
-                <div class="vivek-project-category">Branding</div>
+                <div class="vivek-project-name">Qmanja Solutions Company Website</div>
+                <div class="vivek-project-category">Frontend Design</div>
+                <div class="vivek-project-company">Made at Qmanja Solutions</div>
               </div>
             </div>
-          <div class="vivek-project-card web">
-            <img class="vivek-project-image" src="images/spail-villa.png" alt="spailvilla Project Image" />
-            <div class="vivek-project-content">
-              <div class="vivek-project-name">Football Academy Website</div>
-              <div class="vivek-project-category">Website Design</div>
+          
+            <div class="vivek-project-card mobile web">
+              <div class="vivek-project-image-wrapper">
+                <img class="vivek-project-image" src="images/spail-villa.png" alt="Spail Villa Football Academy">
+              </div>
+              <div class="vivek-project-content">
+                <div class="vivek-project-name">Football Academy Website</div>
+                <div class="vivek-project-category">Website Design / Frontend Design</div>
+                <div class="vivek-project-company">Made at Qmanja Solutions</div>
+              </div>
             </div>
-          </div>
-          <div class="vivek-project-card mobile">
-            <img class="vivek-project-image" src="images/project2.jpg" alt="Project 2" />
-            <div class="vivek-project-content">
-              <div class="vivek-project-name">Food Delivery App</div>
-              <div class="vivek-project-category">App Mobile Design</div>
+          
+            <div class="vivek-project-card web">
+              <div class="vivek-project-image-wrapper">
+                <img class="vivek-project-image" src="images/gns.png" alt="Guru Nanak Sweets">
+              </div>
+              <div class="vivek-project-content">
+                <div class="vivek-project-name">Guru Nanak Sweets Website</div>
+                <div class="vivek-project-category">Frontend Design</div>
+                <div class="vivek-project-company">Made at Qmanja Solutions</div>
+              </div>
             </div>
+            <div class="vivek-project-card web">
+                <div class="vivek-project-image-wrapper">
+                  <img class="vivek-project-image" src="images/Katani-web.png" alt="Katani">
+                </div>
+                <div class="vivek-project-content">
+                  <div class="vivek-project-name">Katani Website</div>
+                  <div class="vivek-project-category">Frontend Design</div>
+                  <div class="vivek-project-company">Made at Qmanja Solutions</div>
+                </div>
+              </div>
+
+              <div class="vivek-project-card web">
+                <div class="vivek-project-image-wrapper">
+                  <img class="vivek-project-image" src="images/PizzaStory.png" alt="Pizza Story Website">
+                </div>
+                <div class="vivek-project-content">
+                  <div class="vivek-project-name">Pizza Story Website</div>
+                  <div class="vivek-project-category">Frontend Design</div>
+                  <div class="vivek-project-company">Made at Qmanja Solutions</div>
+                </div>
+              </div>
+          
+
+              <div class="vivek-project-card web">
+                <div class="vivek-project-image-wrapper">
+                  <img class="vivek-project-image" src="images/Don-Clooney.png" alt="Don Clooney Website">
+                </div>
+                <div class="vivek-project-content">
+                  <div class="vivek-project-name">Don Clooney Website</div>
+                  <div class="vivek-project-category">Frontend Design</div>
+                  <div class="vivek-project-company">Made at Qmanja Solutions</div>
+                </div>
+              </div>
           </div>
           
-          <div class="vivek-project-card branding">
-            <img class="vivek-project-image" src="images/project4.jpg" alt="Project 4" />
-            <div class="vivek-project-content">
-              <div class="vivek-project-name">Brand Identity</div>
-              <div class="vivek-project-category">Branding</div>
-            </div>
-          </div>
-          <div class="vivek-project-card web">
-            <img class="vivek-project-image" src="images/project5.jpg" alt="Project 5" />
-            <div class="vivek-project-content">
-              <div class="vivek-project-name">Landing Page</div>
-              <div class="vivek-project-category">Website Design</div>
-            </div>
-          </div>
-  
-        </div>
       </div>
     </div>
     </section>
@@ -303,23 +333,22 @@
         <div class="vivek-contact-left">
           <h2><span>Contact</span> Me</h2>
     
-          <p><i class="fas fa-phone-alt"></i> Contact No. <strong>+91-7876-302727</strong></p>
-          <p><i class="fas fa-envelope"></i> Email - <strong>Saksham0541@gmail.com</strong></p>
+          <p><i class="fa-solid fa-phone"></i> Contact No. <strong>+91-8894006623</strong></p>
+          <p><i class="fas fa-envelope"></i> Email - <strong>navurana433@gmail.com</strong></p>
     
           <h3><span>Social</span> Media</h3>
           <div class="vivek-social-icons">
-            <a href="#"><img src="notion-icon.png" alt="Notion"></a>
-            <a href="#"><img src="linkedin-icon.png" alt="LinkedIn"></a>
-            <a href="#"><img src="behance-icon.png" alt="Behance"></a>
-            <a href="#"><img src="instagram-icon.png" alt="Instagram"></a>
-            <a href="#"><img src="whatsapp-icon.png" alt="WhatsApp"></a>
+            <a href="https://www.linkedin.com/in/vivek-rana-4a3781293"><img src="images/linkdin-logo.png"></a>
+            <a href="https://www.behance.net/vivekranaa"><img src="images/behance-logo.png"></a>
+            <a href="#"><img src="images/instagram-logo.png"></a>
+            <a href="https://wa.me/918894006623?text=Hi%2C%20I%20see%20your%20portfolio.%20Impressed!%20Let%27s%20connect."><img src="images/whatsapp-logo.png"></a>
           </div>
     
-          <a href="" class="btn-1">Get In Touch</a>
+          <a href="https://wa.me/918894006623?text=Hi%20Vivek%2C%20I%20visited%20your%20portfolio%20and%20want%20to%20discuss%20a%20project." class="btn-1">Get In Touch</a>
         </div>
     
         <div class="vivek-contact-right">
-          <img src="your-image.jpg" alt="Contact Person">
+          <img src="images/Vivek Ranaa.png" alt="Vivek Rana">
         </div>
       </div>
     </section>
@@ -344,32 +373,30 @@
 
 
     <footer class="vivek-portfolio-footer">
-      <div class="logo">Vivek</div>
+      <div class="logo"><h1>Vivek</h1></div>
     
       <ul class="vivek-portfolio-footer-nav">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">About me</a></li>
-        <li><a href="#">Portfolio</a></li>
-        <li><a href="#">Contact me</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About me</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact.html">Contact me</a></li>
       </ul>
     
       <div class="vivek-portfolio-footer-social">
-        <a href="#"><i class="fab fa-instagram"></i></a>
-        <a href="#"><i class="fab fa-linkedin-in"></i></a>
-        <a href="#"><i class="fab fa-dribbble"></i></a>
-        <a href="#"><i class="fab fa-behance"></i></a>
+        <a href="https://www.linkedin.com/in/vivek-rana-4a3781293"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://dribbble.com/vivekranaa"><i class="fab fa-dribbble"></i></a>
+        <a href="https://www.behance.net/vivekranaa"><i class="fab fa-behance"></i></a>
       </div>
     
       <div class="vivek-portfolio-footer-contact">
         <span><i class="fas fa-envelope"></i> navurana433@gmail.com</span>
-        <span><i class="fas fa-phone-alt"></i> +91 8894006623</span>
+        <span><i class="fa-solid fa-phone-volume"></i> +91 8894006623</span>
       </div>
     
      
     
       <div class="vivek-portfolio-footer-credit">
-        Designed by Vivek Rana
+        &copy; 2025 Portfolio by Vivek Rana
       </div>
     </footer>
     
