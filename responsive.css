@@ -110,6 +110,14 @@ nav .logo {
     padding: 20px 20px;
     max-width: 90%;
     margin: 30px auto;
+    justify-content: space-around;
+}
+.about-wrapper.about-page {
+    align-items: self-start;
+    flex-direction: column;
+}
+.about-wrapper.about-page .about-image h1 {
+    text-align: center;
 }
 .stats-wrapper .divider {
     display: block;
@@ -167,8 +175,11 @@ section#vivek-portfolio-skills {
     padding: 50px 0px;
 }
 .vivek-contact-container {
-    flex-direction: column;
+    flex-direction: column-reverse;
     text-align: center;
+  }
+  .vivek-portfolio-about-edu-card {
+    padding: 20px;
   }
 
   .vivek-contact-left {
@@ -197,6 +208,12 @@ section#vivek-portfolio-skills {
     margin: 0 6px;
     font-size: 20px;
   }
+  .vivek-social-icons {
+    justify-content: center;
+}
+.vivek-portfolio-footer-credit {
+    max-width: 100%;
+}
 }
 
 @media (max-width: 481px){

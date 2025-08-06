@@ -31,6 +31,28 @@ function toggleMenu() {
   menu.classList.toggle("show");
   toggle.textContent = menu.classList.contains("show") ? "✖" : "☰";
 }
+document.addEventListener("DOMContentLoaded", function () {
+  const filterButtons = document.querySelectorAll(".vivek-project-btn");
+  const projectCards = document.querySelectorAll(".vivek-project-card");
+
+  filterButtons.forEach(button => {
+    button.addEventListener("click", function () {
+      const filterValue = this.getAttribute("data-filter");
+
+      filterButtons.forEach(btn => btn.classList.remove("active"));
+      this.classList.add("active");
+
+      projectCards.forEach(card => {
+        if (filterValue === "all" || card.classList.contains(filterValue)) {
+          card.style.display = "block";
+        } else {
+          card.style.display = "none";
+        }
+      });
+    });
+  });
+});
+
 
       tsParticles.load("particles-js", {
   fullScreen: { enable: false },
@@ -192,3 +214,6 @@ buttons.forEach(btn => {
     });
   });
 });
+
+
+
